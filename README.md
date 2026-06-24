@@ -1,66 +1,97 @@
-📊 Data Analytics Project
+# 🚀 Data Warehouse & Analytics Project
 
-Welcome to the Data Analytics Project repository! 🚀
+## 📖 Project Overview
 
-This project demonstrates an end-to-end analytics solution, from data cleaning and transformation to dashboard development and business insights generation. Designed as a portfolio project, it showcases industry-standard practices in data analysis, reporting, and visualization.
+This project demonstrates the end-to-end development of a modern Data Warehouse and Analytics solution using SQL Server. The objective is to transform raw operational data into a structured analytical model that supports reporting, dashboarding, and business decision-making.
 
-🚀 Project Requirements
-Data Analysis & Reporting
-Objective
+The project covers:
 
-Develop actionable business insights using data analysis techniques and visualization tools to support informed decision-making.
+1. **Data Architecture** – Designing a modern Data Warehouse using the **Medallion Architecture (Bronze, Silver, Gold)**.
+2. **ETL Pipelines** – Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling** – Developing Fact and Dimension tables optimized for analytical queries.
+4. **Analytics & Reporting** – Creating SQL-based reports and business insights for decision-making.
 
-Key Focus Areas
-Customer Behavior Analysis
-Product Performance Analysis
-Sales Trend Analysis
-Revenue & Profitability Analysis
-KPI Monitoring
-Specifications
-Data Collection: Import data from multiple sources such as CSV, Excel, databases, or APIs.
-Data Cleaning: Handle missing values, duplicates, inconsistencies, and outliers.
-Data Transformation: Prepare and structure data for analysis.
-Data Modeling: Build relationships and create analytical models.
-Data Visualization: Design interactive dashboards and reports.
-Business Insights: Identify trends, patterns, opportunities, and risks.
-Documentation: Maintain clear documentation for project understanding and future maintenance.
-🛠️ Tools & Technologies
-Microsoft Excel
-SQL
-Power BI / Tableau
-Python (Pandas, NumPy, Matplotlib)
-Power Query
-📈 Dashboard Features
-Executive Summary
-KPI Scorecards
-Trend Analysis
-Customer Segmentation
-Product Performance Tracking
-Interactive Filters & Slicers
-🎯 Business Impact
+---
 
-This project helps stakeholders:
+## 🎯 Project Objectives
 
-Monitor business performance
-Identify growth opportunities
-Improve decision-making
-Optimize operational efficiency
-Track key performance indicators (KPIs)
-📂 Project Structure
-Data-Analytics-Project/
-│
-├── Datasets/
-├── SQL Scripts/
-├── Excel Files/
-├── Power BI Dashboard/
-├── Documentation/
-└── README.md
-📜 License
+- Consolidate data from multiple source systems.
+- Clean and standardize raw data.
+- Build a scalable analytical data model.
+- Enable efficient reporting and business analysis.
+- Generate actionable business insights.
 
-This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
+---
 
-👨‍💻 About Me
+## 🏗️ Data Warehouse Architecture
 
-Hi! I'm Kedar Pawar, an aspiring Data Analyst with a strong interest in Business Analytics, Supply Chain Analytics, SQL, Excel, Power BI, and Data Visualization.
+```text
+ERP CSV Files
+       │
+CRM CSV Files
+       │
+       ▼
+┌─────────────┐
+│   Bronze    │
+│ Raw Data    │
+└─────────────┘
+       │
+       ▼
+┌─────────────┐
+│   Silver    │
+│ Clean Data  │
+└─────────────┘
+       │
+       ▼
+┌─────────────┐
+│    Gold     │
+│ Analytics   │
+└─────────────┘
+       │
+       ▼
+Reports & Insights
+```
 
-Currently pursuing a structured roadmap toward becoming a professional Data Analyst by building real-world projects and solving business problems through data.
+---
+
+## 📋 Project Requirements
+
+### Data Engineering
+
+- Import data from multiple source systems (ERP & CRM).
+- Perform data quality checks and cleansing.
+- Integrate data into a unified analytical model.
+- Build Bronze, Silver, and Gold layers.
+- Document the data model and transformation process.
+
+### Data Analytics
+
+- Develop analytical SQL queries.
+- Create business KPIs and performance metrics.
+- Generate reports for decision-making.
+- Support dashboard development.
+
+---
+
+## 🛠️ Technologies Used
+
+- SQL Server
+- SQL
+- ETL Development
+- Data Warehousing
+- Star Schema Modeling
+- Medallion Architecture
+- Git & GitHub
+
+---
+
+## 💡 Skills Demonstrated
+
+- Data Warehousing
+- Data Engineering
+- ETL Pipeline Development
+- Data Modeling
+- SQL Development
+- Data Quality Management
+- Business Analytics
+- Reporting & Insights
