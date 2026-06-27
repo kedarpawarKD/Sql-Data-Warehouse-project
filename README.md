@@ -23,34 +23,9 @@ The project covers:
 
 ---
 
-## 🏗️ Data Warehouse Architecture
+## 📐 Data Architecture
 
-```text
-ERP CSV Files
-       │
-CRM CSV Files
-       │
-       ▼
-┌─────────────┐
-│   Bronze    │
-│ Raw Data    │
-└─────────────┘
-       │
-       ▼
-┌─────────────┐
-│   Silver    │
-│ Clean Data  │
-└─────────────┘
-       │
-       ▼
-┌─────────────┐
-│    Gold     │
-│ Analytics   │
-└─────────────┘
-       │
-       ▼
-Reports & Insights
-```
+![Data Warehouse Architecture](docs/Datawarehouse%20architecture.png)
 
 ---
 
